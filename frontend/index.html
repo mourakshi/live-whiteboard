@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+
+    <!-- Optional: Font Awesome CDN for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-papLNh5yKsGqI2Jh+9MZ0/jfh45IhMZHO14P6dkVPA+PsnTo2zH4n0AMsn3h7GU5s9oWX7r6ZK+kZq0DxRWvRA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      .box {
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        z-index: 100;
+      }
+
+      button {
+        padding: 8px 12px;
+        font-size: 18px;
+        margin-right: 10px;
+        border: none;
+        background-color: #f0f0f0;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+
+      button:hover {
+        background-color: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <button id="pencil">✏️</button>
+      <button id="rectangle">⬛</button>
+
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
