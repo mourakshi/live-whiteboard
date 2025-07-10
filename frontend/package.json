@@ -1,0 +1,21 @@
+{
+  "name": "mumlivewhiteboard",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.8.1",
+    "socket.io": "^4.7.5"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon --watch src --ext ts,js --exec ts-node src/index.ts", 
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  }
+}
