@@ -74,11 +74,10 @@ mumlivewhiteboard/
 └── README.md                   # Project overview and documentation
 ```
 ## 💡 Future Plans
- -✅ Add Text Tool
- -✅ Show Active Users in Room
- -🔄 Sync Drawing State Across Clients in Real-Time
- -💾 Save Canvas to Image or PDF
-
+- ✅ Add Text Tool.
+- ✅ Show Active Users in Room
+- 🔄 Sync Drawing State Across Clients in Real-Time
+- 💾 Save Canvas to Image or PDF
 
 ## 📬 Feedback
 Have suggestions or found a bug? Feel free to open an issue or contribute via a pull request.
